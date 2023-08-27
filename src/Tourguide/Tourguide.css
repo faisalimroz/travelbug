@@ -1,0 +1,42 @@
+.guide{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.guide-border{
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px gray;
+}
+/* Tourguide.css */
+
+/* ... (your existing styles) */
+
+/* Style for the button */
+.figure{
+    position: relative;
+}
+.image-button {
+    display: none;
+    position: absolute;
+    height: 30px;
+    width: 70px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f9f5a6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;   
+  }
+  
+  /* Hover effect to show the button */
+  .guide-border:hover .image-button {
+    display: flex;
+    justify-content: space-around;
+    opacity: 1;
+  }
+  
+
+
+  

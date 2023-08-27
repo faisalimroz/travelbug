@@ -1,0 +1,9 @@
+.package-title:hover{
+    text-decoration: underline;
+}
+#package-card{
+    border-radius: 10px;
+}
+#my-paragraph{
+    text-align: justify;
+}
